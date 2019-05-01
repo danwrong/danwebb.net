@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "bin/build.sh",
+    "build": "bash bin/build.sh",
     "start": "webpack-dev-server"
   },
   "keywords": [],

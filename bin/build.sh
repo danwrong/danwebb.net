@@ -1,4 +1,3 @@
-npm install
 rm -rf dist
 mkdir dist
 cp -R public/* dist/
