@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+
+#content {
+    position: absolute;
+    margin: 3em;
+    z-index: 1;
+    color: #DDD;
+    font-family: 'Nixie One', cursive;
+    font-size: 1.5em;
+    max-width: 40em;
+    line-height: 1.2;
+}
+
+#content h1, #content h2 {
+    margin-top: 0;
+    color: white;
+}
+
+#content ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#content li {
+    margin: 0.5em 0;
+}
+
+#content a {
+    color: white;
+}

@@ -1,4 +1,5 @@
-var webpack = require('webpack');
+var webpack = require('webpack'),
+    path    = require('path');
 
 var config = {
     mode: (process.env.NODE_ENV === 'production') ? 'production' : 'development',
@@ -19,10 +20,13 @@ var config = {
     entry: './src/index.js',
     output: {
       path: __dirname,
-      filename: 'build/build.js'
+      filename: 'assets/index.js'
     },
     devServer: {
-      disableHostCheck: true
+      disableHostCheck: true,
+      contentBase: path.join(__dirname, 'public'),
+      compress: true,
+      port: 3000
     }
   }
 
