@@ -6,10 +6,16 @@
     z-index: 1;
     color: #DDD;
     font-family: 'Nixie One', cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
     max-width: 40em;
     line-height: 1.2;
 }
+
+@media only screen and (max-width: 600px) {
+    #content {
+        font-size: 0.8em;
+    }
+  }
 
 #content h1, #content h2 {
     margin-top: 0;
