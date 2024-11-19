@@ -1,0 +1,20 @@
+{
+  "name": "danwebb.net",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "clean": "rm -rf _site"
+  },
+  "keywords": [],
+  "author": "Dan Webb",
+  "license": "MIT",
+  "type": "module",
+  "description": "Personal site: danwebb.net",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@types/node": "^22.9.1",
+    "typescript": "^5.6.3"
+  }
+}

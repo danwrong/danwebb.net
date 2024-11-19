@@ -2,7 +2,7 @@
 /node_modules
 
 #build dir
-dist
+_site
 
 .vscode
 
