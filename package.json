@@ -18,6 +18,7 @@
     "typescript": "^5.6.3"
   },
   "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
     "nunjucks-date": "^1.5.0"
   }
 }
