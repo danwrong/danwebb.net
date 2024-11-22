@@ -15,11 +15,11 @@ export default function (config) {
     config.addGlobalData("now", new Date());
 
     config.addPlugin(feedPlugin, {
-        type: "atom", // or "rss", "json"
+        type: "atom",
         outputPath: "/feed.xml",
         collection: {
-            name: "blog", // iterate over `collections.posts`
-            limit: 10,     // 0 means no limit
+            name: "blog",
+            limit: 10,
         },
         metadata: {
             language: "en",
