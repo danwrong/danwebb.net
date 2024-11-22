@@ -1,11 +1,11 @@
 ---
-title: "My First Blog Post"
-date: 2024-11-19
-description: "This is a short description of my first blog post."
+title: "My Second Blog Post"
+date: 2024-11-20
+description: "This is a short description of my second blog post."
 layout: default.njk
 tags: blog
 ---
-This is the content of my first blog post. Markdown makes it easy to write!
+This is the content of my second blog post. Markdown makes it easy to write!
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac posuere ligula, at placerat mauris. Nam vitae blandit augue. Sed venenatis egestas massa et laoreet. In nec eros id mauris posuere venenatis ornare id velit. Aenean pretium lacus et neque hendrerit condimentum. Aenean semper, arcu ac luctus faucibus, nunc dui luctus purus, eu egestas dolor augue sit amet leo. In cursus turpis lectus, eget molestie nibh porta nec. Cras dictum dignissim augue, sed ullamcorper ipsum congue vitae. Cras sit amet arcu non diam pulvinar volutpat. Quisque vitae odio ultricies, imperdiet risus vel, sodales dui. Fusce sagittis enim elit, id vehicula elit tincidunt quis.
 

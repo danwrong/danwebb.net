@@ -1,3 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500;600;700&family=Permanent+Marker&display=swap');
+
+:root {
+    /* CSS HEX */
+    --fg: black;
+    --bg: #eee;
+    --ac1: red;
+    --ac2: #666;
+}
+
 body {
-    background-color: black;
+    font-family: "Enriqueta", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    line-height: 1.6;
+    color: var(--fg);
+    background: linear-gradient(180deg, rgba(30, 30, 30, 1) 90%, rgba(0, 0, 0, 1) 100%);
+    /*
+    background-image: url(/img/marker.webp);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: right -4rem bottom -250px;
+    */
+}
+
+a {
+    color: var(--ac1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Enriqueta", serif;
+    font-weight: bold;
+}
+
+h1 a,
+h2 a,
+h3 a {
+    color: var(--fg)
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.main {
+    background: linear-gradient(0deg, rgba(250, 250, 250, 1) 0%, rgba(234, 234, 234, 1) 100%);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* Three-column layout */
+    gap: 0 3rem;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2rem 4rem 2rem 5.5rem;
+}
+
+.bio,
+.posts,
+.links {
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.bio {
+    grid-column: 1;
+    /* Left column */
+}
+
+.posts {
+    grid-column: 2;
+    /* Center column */
+}
+
+.links {
+    grid-column: 3;
+    /* Right column */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 1rem 10rem 1rem;
+    color: var(--bg);
+}
+
+.name-badge {
+    border: 1px solid var(--ac2);
+    box-shadow: 2px 2px 2px #00000066;
+    text-align: center;
+    border-radius: 10px;
+    rotate: -5deg;
+    margin: 2rem auto 3rem auto;
+    text-transform: uppercase;
+    background: url(/img/paper.webp) repeat;
+    max-width: 400px;
+}
+
+.name-badge div {
+    color: white;
+    background-image: url(/img/paper.webp);
+    background-color: var(--ac1);
+    background-blend-mode: multiply;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-style: normal;
+}
+
+.name-badge strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    letter-spacing: 0.5rem;
+    display: block;
+    line-height: 1;
+    padding: 10px 10px 0px 10px;
+}
+
+.name-badge em {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 0.8rem;
+    display: block;
+    padding: 0px 10px 10px 10px;
+    line-height: 1;
+}
+
+.name-badge span {
+    font-family: "Permanent Marker", cursive;
+    text-transform: none;
+    color: #000000AA;
+    font-style: italic;
+    font-size: 3.1rem;
+    rotate: -5deg;
+    display: block;
+    scale: 1.1;
+    padding: 1rem;
+}
+
+.bio p strong {
+    font-size: 2rem;
+}
+
+article {
+    margin-bottom: 4rem;
+}
+
+article h2 {
+    margin: 1rem 0 0 0;
+    line-height: 1.2;
+    font-size: 3rem;
+}
+
+article .posted-at {
+    margin-top: 0;
+    color: var(--ac2);
+}
+
+.links h2 {
+    font-size: 1.5rem;
+}
+
+.links p {
+    margin-bottom: 3rem;
+}
+
+.links ul.socials {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+.links svg {
+    width: 2rem;
+    fill: var(--ac1);
+}
+
+.links ul {
+    padding: 0 0 1rem 1rem;
+    list-style-image: url("/img/rounded-box.svg");
+}
+
+.links ul li {
+    margin-bottom: 1rem;
+}
+
+footer {
+    color: var(--ac2);
+}
+
+footer a {
+    color: var(--ac2);
+}
+
+@media (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: 2fr 1fr;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+
+    .bio {
+        grid-column: 1 / span 2;
+    }
+
+    .posts {
+        grid-column: 1;
+    }
+
+    .links {
+        grid-column: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .bio {
+        grid-column: 1;
+    }
+
+    .posts {
+        grid-column: 1;
+    }
+
+    .links {
+        grid-column: 1;
+    }
 }
