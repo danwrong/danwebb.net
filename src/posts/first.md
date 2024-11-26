@@ -1,5 +1,5 @@
 ---
-title: "My First Blog Post"
+title: "Why Is Everything P0?"
 date: 2024-11-19
 description: "This is a short description of my first blog post."
 layout: default.njk

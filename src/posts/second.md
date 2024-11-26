@@ -1,5 +1,5 @@
 ---
-title: "My Second Blog Post"
+title: "Moving From Engineer To Leader"
 date: 2024-11-20
 description: "This is a short description of my second blog post."
 layout: default.njk

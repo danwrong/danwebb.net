@@ -7,6 +7,7 @@
     --ac1: red;
     --ac2: #666;
     --mainfont: "Zilla Slab", serif;
+    --handfont: "Permanent Marker", cursive;
 }
 
 body {
@@ -18,12 +19,6 @@ body {
     color: var(--fg);
     background: linear-gradient(180deg, rgba(30, 30, 30, 1) 90%, rgba(0, 0, 0, 1) 100%);
     font-size: 1.2rem;
-    /*
-    background-image: url(/img/marker.webp);
-    background-repeat: no-repeat;
-    background-size: 25%;
-    background-position: right -4rem bottom -250px;
-    */
 }
 
 a {
@@ -58,7 +53,7 @@ h2 {
 }
 
 .main {
-    background: linear-gradient(0deg, rgba(250, 250, 250, 1) 0%, rgba(234, 234, 234, 1) 100%);
+    background: linear-gradient(30deg, rgba(256, 256, 256, 1) 0%, rgba(244, 244, 244, 1) 100%);
 }
 
 .grid-container {
@@ -68,7 +63,7 @@ h2 {
     gap: 0 3rem;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 2rem 4rem 2rem 5.5rem;
+    padding: 2rem 4rem 2rem 4rem;
 }
 
 .bio,
@@ -142,7 +137,7 @@ footer {
 }
 
 .name-badge span {
-    font-family: "Permanent Marker", cursive;
+    font-family: var(--handfont);
     text-transform: none;
     color: #000000AA;
     font-style: italic;
@@ -163,12 +158,18 @@ article {
 
 article h2 {
     margin: 1rem 0 0 0;
-    line-height: 1.2;
-    font-size: 3rem;
+    line-height: 1;
+    font-size: 4rem;
+}
+
+article h2 a {
+    font-size: 3.5rem;
+    font-family: var(--handfont);
+    color: #000000AA;
 }
 
 article .posted-at {
-    margin-top: 0;
+    margin-top: 0.5rem;
     color: var(--ac2);
 }
 
