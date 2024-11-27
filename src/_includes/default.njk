@@ -29,11 +29,15 @@
         <div class="grid-container">
             <!-- Left Column: Biography and Contact -->
             <header class="bio">
+                {% if page.url != "/" %}
                 <a href="/">
+                    {% endif %}
                     <h1 class="name-badge">
                         <div><strong>Hello</strong> <em>my name is</em></div> <span>Dan Webb</span>
                     </h1>
+                    {% if page.url != "/" %}
                 </a>
+                {% endif %}
                 <p><strong>I build things</strong></p>
                 <p>Mainly engineering teams and software.</p>
                 <p>This site is a growing collection of notes that you might find useful if you are also doing that kind
