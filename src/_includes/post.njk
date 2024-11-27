@@ -1,0 +1,15 @@
+{% extends "default.njk" %}
+
+{% block main %}
+<article>
+    <h2>{{ title }}</h2>
+    <p class="posted-at">{{ post.date | date }} /
+        {% for tag in tags %}
+        {% if tag != "blog" %}
+        {{ tag }}
+        {% endif %}
+        {% endfor %}
+    </p>
+    {{ content | safe }}
+</article>
+{% endblock %}

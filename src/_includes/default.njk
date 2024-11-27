@@ -5,7 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
-    <title>{{ title }}</title>
+
+    <title>danwebb.net{% if title %} -> {{ title }}{% endif %}</title>
+
+    <meta name="description"
+        content="{% if description %}{{ description }}{% else %}The personal site of Dan Webb aka @danwrong.{% endif %}">
+    <meta name="author" content="Dan Webb">
+    <meta name="keywords"
+        content="danwebb.net, dan webb, london, tech industry, tech leadership, blog, software, software engineering, leadership, personal blog">
+    <meta name="robots" content="index, follow">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+
+    {% block head %}
+    {% endblock %}
 </head>
 
 <body>
@@ -13,9 +29,11 @@
         <div class="grid-container">
             <!-- Left Column: Biography and Contact -->
             <header class="bio">
-                <h1 class="name-badge">
-                    <div><strong>Hello</strong> <em>my name is</em></div> <span>Dan Webb</span>
-                </h1>
+                <a href="/">
+                    <h1 class="name-badge">
+                        <div><strong>Hello</strong> <em>my name is</em></div> <span>Dan Webb</span>
+                    </h1>
+                </a>
                 <p><strong>I build things</strong></p>
                 <p>Mainly engineering teams and software.</p>
                 <p>This site is a growing collection of notes that you might find useful if you are also doing that kind
@@ -24,7 +42,8 @@
 
             <!-- Middle Column: Blog Posts -->
             <main class="posts">
-                {{ content | safe }}
+                {% block main %}
+                {% endblock %}
             </main>
 
             <!-- Right Column: Socials and Feeds -->
