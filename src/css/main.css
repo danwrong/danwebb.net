@@ -96,6 +96,7 @@ footer {
 
 .bio>a {
     text-decoration: none;
+    font-weight: normal;
 }
 
 .name-badge {
