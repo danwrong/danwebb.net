@@ -163,7 +163,6 @@ article {
 article h2 {
     margin: 1rem 0 0 0;
     line-height: 1;
-    font-size: 4rem;
     font-size: 3.5rem;
     font-family: var(--handfont);
     color: #000000AA;
@@ -246,6 +245,10 @@ footer a {
     .grid-container {
         grid-template-columns: 1fr;
         padding: 1rem 1rem 1rem 1rem;
+    }
+
+    article h2 {
+        font-size: 2.5rem;
     }
 
     .bio {
