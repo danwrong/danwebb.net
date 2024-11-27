@@ -148,6 +148,7 @@ footer {
     color: #000000AA;
     font-style: italic;
     font-size: 3.1rem;
+    font-weight: normal;
     rotate: -5deg;
     display: block;
     scale: 1.1;

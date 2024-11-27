@@ -5,7 +5,7 @@ description: "danwebb.net is back in business as an oldschool blog - check out w
 layout: post.njk
 tags: ["blog", "personal"]
 ---
-I’ve had danwebb.net since 2000 and in the mid 2000s [my old blog](https://blog.danwebb.net) even got fairly popular amongst web developer types.  In fact, it was a factor in me getting hired by Twitter back in 2010.  Since then, like many early noughties personal blogs, it’s fallen silent as we all went to Twitter to shout into the void instead which was all fun and games until the void started shouting back.
+I’ve had danwebb.net since 2000 and in the mid 2000s [my old blog](https://blog.danwebb.net) even got fairly popular amongst web developer types.  In fact, it was a factor in me getting hired by Twitter back in 2010.  Since then, like many early noughties personal blogs, it’s fallen silent as we all went to Twitter to shout into the void instead. This was all fun and games until the void started shouting back.
 
 Fast forward to 2024 and I’ve been thinking the time is right to get it going again.  I’m lucky enough to have a pretty varied professional life at the moment where I spend equal amounts of time as a startup founder, a polyglot programmer (jack of all trades, master of none, if I’m honest) and a technical leader.  I’ve learnt from some amazing people, I’ve made some mistakes and learned from them and I’ve seen a [whole load of crazy](https://x.com/siggy/status/236641738406625281?lang=en-GB) tech industry shit.  This all adds up to a certain amount of wisdom/entertaining anecdotes.
 
