@@ -3,7 +3,7 @@
 {% block main %}
 <article>
     <h2>{{ title }}</h2>
-    <p class="posted-at">{{ post.date | date }} /
+    <p class="posted-at">{{ date | date }} /
         {% for tag in tags %}
         {% if tag != "blog" %}
         {{ tag }}
