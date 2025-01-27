@@ -5,7 +5,7 @@ description: "Dan's take on the much discussed founder mode post by Paul Graham"
 layout: post.njk
 tags: ["blog", "startups", "leadership"]
 ---
-If you’ve even been glancing at the startup/tech community you will not have missed Paul Graham's recent essay, [Founder Mode](https://paulgraham.com/foundermode.html), and the enormous amounts of surrounding commentary. It makes some sharp observations about the challenges founders face as their companies grow. It’s a great read and, of course, the problems are real but I fear the message to founders reads too much like: you are the founder, you know best, you must micromanage for victory. So, here’s my screaming hot take <a href="#founder-note1">*</a> - enjoy.
+If you’ve even been glancing at the startup/tech community you will not have missed Paul Graham's recent essay, [Founder Mode](https://paulgraham.com/foundermode.html), and the enormous amounts of surrounding commentary. It makes some sharp observations about the challenges founders face as their companies grow. It’s a great read and, of course, the problems are real but I fear the message to founders reads too much like: you are the founder, you know best, you must micromanage for victory. So, here’s my steaming hot take <a href="#founder-note1">*</a> - enjoy.
 
 ### Running a company is bloody hard, especially if it’s your first time
 
