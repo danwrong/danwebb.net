@@ -3,10 +3,11 @@
 {% block main %}
 <article>
     <h2>{{ title }}</h2>
-    <p class="posted-at">{{ date | date }} /
+    <p class="posted-at">{{ date | date }} |
+        {% set sep = joiner(" | ") %}
         {% for tag in tags %}
         {% if tag != "blog" %}
-        {{ tag }}
+        {{ sep() }}{{ tag }}
         {% endif %}
         {% endfor %}
     </p>
