@@ -35,4 +35,4 @@ So, in conclusion, I agree with Paul - founder mode should not be manager mode. 
 
 <span id="founder-note1"><strong>*</strong></span> I’m not a founder of a unicorn startup but I have worked with several. My word is not gospel but comes from what I believe is a valuable set of observations.  Read the following with that in mind.
 
-<span id="founder-note2"><strong>**</strong></span> This is a hypothetical to illustrate the point rather than a real event but there were many bits of feedback like this.
+<span id="founder-note2"><strong>**</strong></span> This is a hypothetical to illustrate the point rather than a real event but this was a fairly common occurance.
