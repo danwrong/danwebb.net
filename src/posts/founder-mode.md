@@ -17,7 +17,7 @@ To scale their influence and fill skill gaps, they often hire experienced execs 
 
 ### Founder mode is about the details
 
-For me, founder mode isn’t about addressing this pain by wrestling the controls out of your team's hands and going full micromanager. It’s about embracing the fact that you are the only one that truly understands your vision and, while you develop the skills to communicate that vision well, you are going to need to find ways to scale the company while keeping it rolling on a tactical level. 
+For me, founder mode isn’t about addressing this pain by wrestling the controls out of your team's hands and going full micromanager. It’s about embracing the fact that you are the only one that truly understands your vision and, while you develop the skills to communicate that vision well, you are going to need to find ways to scale the company while keeping it true to your vision and remaining in a position to observe and deal with tactical issues as they arise. 
 
 It’s a balancing act.
 
