@@ -1,5 +1,9 @@
 {% extends "default.njk" %}
 
+{% block head %}
+<meta property="article:published_time" content="{{ date | date('YYYY-MM-DD') }}" />
+{% endblock %}
+
 {% block main %}
 <article>
     <h2>{{ title }}</h2>
