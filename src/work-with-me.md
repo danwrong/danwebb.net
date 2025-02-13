@@ -11,7 +11,7 @@ I'm a [experienced engineering leader](https://www.linkedin.com/in/dan-webb-04b5
 
 I know what small and scrappy looks like, having founded my own startup and building the team and culture from scratch but I also know what mature teams look like having leading engineering teams through preparing for an IPO.  Most importantly, I've got a good sense for how organisations need to evolve over time.  
 
-I've done a lot of things, dealt with many of the challenges that come with scaling a startup and have learned from many mistakes.  Recently, I've been enjoying working as an advisor and coach to several exciting UK startups including [Apron](https://www.apron.app/), [Plain](http://plain.com) and [9Fin](https://9fin.co/) and I love it - it's great to learn about every startups unique challenges and help make them successful.  
+I've done a lot of things, dealt with many of the challenges that come with scaling a startup and have learned from many mistakes.  Recently, I've been enjoying working as an advisor and coach to several exciting UK startups including [Apron](https://getapron.com/), [Plain](http://plain.com) and [9Fin](https://9fin.com/) and I love it - it's great to learn about every startups unique challenges and help make them successful.  
 
 ### Ways I can help
 
