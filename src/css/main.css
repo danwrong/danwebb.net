@@ -189,6 +189,10 @@ article .posted-at {
     color: var(--ac2);
 }
 
+article h2.no-byline {
+    margin-bottom: 2.5rem;
+}
+
 .links h2 {
     font-size: 1.5rem;
 }
@@ -225,6 +229,21 @@ footer {
 
 footer a {
     color: var(--ac2);
+}
+
+.bio-pic {
+    width: 33%;
+    float: right;
+    margin: 0 1rem 1rem 1rem;
+    border: 1px solid var(--ac2);
+    box-shadow: 2px 2px 2px #00000066;
+    text-align: center;
+    border-radius: 10px;
+    rotate: 5deg;
+    text-transform: uppercase;
+    background: #fff;
+    background: url(/img/ge.jpg)no-repeat center center;
+    background-size: cover;
 }
 
 @media (max-width: 1200px) {
