@@ -163,6 +163,12 @@ article {
     margin-bottom: 4rem;
 }
 
+article img {
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+}
+
 article p a {
     color: var(--fg);
     font-weight: normal;
