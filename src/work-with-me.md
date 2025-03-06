@@ -17,9 +17,9 @@ I've done a lot of things, dealt with many of the challenges that come with scal
 
 * __Coach your engineering leadership:__ If your leaders are up to the challenge of scaling with your team but would appreciate someone as a sounding board or second opinion I can help with regular catch ups or deep dives on particular topics.
 
-* __Hiring engineering leadership__: If you're looking for an experience leader to grow your organisation (such as a CTO, VPE or head of engineering) I can help throughout the hiring process from building a job description to working with your recruiters to tune sourcing through to designing interviews and conducting interview training.  I'll help you have confidence you are finding the right person for the role.
+* __Hiring engineering leadership__: If you're looking for an experienced leader to grow your organisation (such as a CTO, VPE or head of engineering) I can help throughout the hiring process from building a job description to working with your recruiters to tune sourcing through to designing interviews and conducting interview training.  I'll help you have confidence you are finding the right person for the role.
 
-* __Techincal due dilligence__: If you are an investor looking to assess a startup's engineering capability or a startup raising and preparing for DD, I can help you be successful.
+* __Technical due dilligence__: If you are an investor looking to assess a startup's engineering capability or a startup raising and preparing for DD, I can help you be successful.
 
 If you are scaling an engineering team in a fast growing startup and would appreciate some support, [we should talk](mailto:dan@danwebb.net).
 
