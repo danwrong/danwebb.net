@@ -9,7 +9,7 @@ layout: page.njk
 
 I'm a [experienced engineering leader](https://www.linkedin.com/in/dan-webb-04b562/) having spent the majority of my career in fast scaling engineering teams from Twitter to Deliveroo to Meta Reality Labs and on to founding my own startup, Existent. 
 
-I know what small and scrappy looks like, having founded my own startup and building the team and culture from scratch but I also know what mature teams look like having leading engineering teams through preparing for an IPO.  Most importantly, I've got a good sense for how organisations need to evolve over time.  
+I know what small and scrappy looks like, having founded my own startup and building the team and culture from scratch but I also know what mature teams look like having led engineering teams through preparing for an IPO.  Most importantly, I've got a good sense for how organisations need to evolve over time.  
 
 I've done a lot of things, dealt with many of the challenges that come with scaling a startup and have learned from many mistakes.  Recently, I've been enjoying working as an advisor and coach to several exciting UK startups including [Apron](https://getapron.com/), [Plain](http://plain.com) and [9Fin](https://9fin.com/) and I love it - it's great to learn about every startups unique challenges and help make them successful.  
 
